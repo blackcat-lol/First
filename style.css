@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    background: radial-gradient(circle, #1d239b, #0c0e12);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container{
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+.language-selector{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 14px;
+    color: #9ba0a5;
+    cursor: pointer;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg') no-repeat center;
+    background-size: cover;
+    margin: 20px auto;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.input-field{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: #2e3b4e;
+    color: white;
+    font-size: 16px;
+}
+.input-field::placeholder{
+    color: #9ba0a5;
+}
+.login-button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #1877f2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login-button:hover{
+    background: #155cbb;
+}
+.forgot-password{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #9ba0a5;
+    cursor: pointer;
+}
+.create-account{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #2e3b4e;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #1877f2;
+    background: transparent;
+    cursor: pointer;
+}
+.meta-logo{
+    margin-top: 30px;
+    font-size: 14px;
+    color: #9ba0a5;
+}
+textarea{
+    display: none;
+}
+form button{
+    width: 100%;
+}
